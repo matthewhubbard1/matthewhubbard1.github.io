@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -55,40 +56,51 @@ width: 100%;
 
 }
 
-.my-picture {
-position: relative;
-display: inline-block;
-height: 300px;
-width: 400px;
-object-fit: contain;
 
-}
 
 .about-me-container {
 width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem 0rem 6rem 0rem;
+   
 }
 
-.about-me {
-position: relative;
-display: inline-block;
-width: 500px;
-
-
-}
 
 .about-me-heading {
-    position: relative;
-    top: 80px;
-    left: 300px;
     font-size: 30px;
 }
 
+
+
+.picture-box {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+}
+
+
+.about-me {
+
+    width: 40%;
+
+    }
+
+.my-picture {
+    height: 40%;
+    width: 20%;
+    object-fit: contain;
+    
+    }
+
+
+
 .about-me-p {
 
-display: inline-block;
 
 }
 
