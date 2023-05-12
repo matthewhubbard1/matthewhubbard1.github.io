@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.header {
+
+    padding: 5px;
+    
+    background-color: gainsboro;
+
+}
+
+.logo-div{
+
+
+    display: inline-block;
+    position: relative;
+    padding: 1px;
+    
+}
+
+.logo{
+
+
+    font-size: 22px;
+    padding: 0px 5px;
+}
+
+.nav-div{
+
+
+    padding: 1px;
+
+    display: inline-block;
+    position: relative;
+    left: 920px;
+}
+
+.nav{
+
+    padding: 1px 1px 2px 1px;
+
+
+
+}
+
+.nav-li{
+
+    padding: 5px;
+    display: inline;
+
+}
+
+.section-2 {
+
+}
+
+.my-picture {
+position: relative;
+display: inline-block;
+height: 300px;
+width: 400px;
+object-fit: contain;
+top: 100px;
+left: 800px;
+}
+
+.about-me {
+position: relative;
+display: inline-block;
+top: 100px;
+width: 500px;
+right: 300px;
+
+}
+
+.about-me-heading {
+    position: relative;
+    top: 80px;
+    left: 300px;
+    font-size: 30px;
+}
+
+.about-me-p {
+
+display: inline-block;
+
+}
+
+a, a:hover, a:visited, a:active {
+    color: #000000;
+    text-decoration: none;
+   }
+
+.projects-header {
+
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.skills-header {
+
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.contact-header {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
