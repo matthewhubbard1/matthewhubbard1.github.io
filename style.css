@@ -8,15 +8,16 @@
 .header {
 
     padding: 5px;
-    
+    display: flex;
     background-color: gainsboro;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .logo-div{
 
-
-    display: inline-block;
+    display: flex;
     position: relative;
     padding: 1px;
     
@@ -30,13 +31,10 @@
 }
 
 .nav-div{
-
-
     padding: 1px;
-
-    display: inline-block;
-    position: relative;
+    display: flex;
     left: 920px;
+    border: 1px solid blue;
 }
 
 .nav{
