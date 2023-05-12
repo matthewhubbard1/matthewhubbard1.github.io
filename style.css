@@ -64,12 +64,18 @@ object-fit: contain;
 
 }
 
+.about-me-container {
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-me {
 position: relative;
 display: inline-block;
-top: 100px;
 width: 500px;
-right: 300px;
+
 
 }
 
